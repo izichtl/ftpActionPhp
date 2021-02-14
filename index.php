@@ -14,7 +14,7 @@
         <li><a href='sobre.php'>SOBRE</a></li>
         <li><a href='home.php'>HOME</a></li>
     </ul>
-    <h2>Teste de Upload via FTP</h2>
+    <h2>Teste de Upload via FTP - 02</h2>
     <form action='index2.php' method='post'>
         <?php
             $messagemDeErro = isset($_SESSION['erro-nome']) ? $_SESSION['erro-nome'] : '';
