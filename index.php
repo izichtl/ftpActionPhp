@@ -15,7 +15,7 @@
         <li><a href='index.php'>HOME</a></li>
     </ul>
     <h2>Este site foi criado apenas para testar o deploy automático via FTP</h2>
-    <form action='index2.php' method='post'>
+    <form action='form.php' method='post'>
         <?php
             $messagemDeErro = isset($_SESSION['erro-nome']) ? $_SESSION['erro-nome'] : '';
             if(!empty($messagemDeErro)){
