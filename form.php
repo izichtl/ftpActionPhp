@@ -9,8 +9,8 @@
     <title>Formulário de inscrição</title>
 </head>
 <body>
-    <h2>Formulário 2 para inscrição de competidores</h2>
-    <form action='navScript.php' method='post'>
+    <h2>Confirmação do Formulário</h2>
+    <form action='index.php' method='post'>
     <input  type='submit' value='voltar' name>
     </form> 
 </body>

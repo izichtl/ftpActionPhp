@@ -12,9 +12,9 @@
         <li><a href='contato.php'>CONTATO</a></li>
         <li><a href='produtos.php'>PRODUTOS</a></li>
         <li><a href='sobre.php'>SOBRE</a></li>
-        <li><a href='home.php'>HOME</a></li>
+        <li><a href='index.php'>HOME</a></li>
     </ul>
-    <h2>Teste de Upload via FTP - 008</h2>
+    <h2>Este site foi criado apenas para testar o deploy automático via FTP</h2>
     <form action='index2.php' method='post'>
         <?php
             $messagemDeErro = isset($_SESSION['erro-nome']) ? $_SESSION['erro-nome'] : '';
